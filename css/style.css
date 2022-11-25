@@ -1,0 +1,119 @@
+@import url("normalize.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/*--Меняет отсчёт ширины блока для более удобной вёрстки--*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*--Убирает линии обводки у некоторых браузеров--*/
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+/*--Делает теги блочными--*/
+header,
+nav,
+aside,
+footer {
+  display: block;
+}
+
+/*--Параметры, которые уравнивают поведение шрифтов и элементов для разных браузеров--*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*--Наследование семейства шрифта тегами формы(по умолчанию не наследуют)--*/
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/*--Данные параметры убирают некоторые особенности в разных браузерах--*/
+input::-ms-clear {
+  display: none;
+}
+button {
+  background: transparent;
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+/*--Обнуление заголовков--*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+/**********************/
+
+:root {
+  --color-text-1: #282739;
+  --color-text-2: #fff;
+  --color-text-3: #5d6c7b;
+  --bg-btn: #6f73ee;
+  --color-text-sub: #6f73ee;
+}
+body {
+  font-family: 'Jost', 'Roboto', sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+[class*="_container"] {
+  margin: 0 auto;
+  max-width: 69.375em/*1110px*/;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.btn-sub {}
