@@ -162,7 +162,7 @@ section {
 .btn {
   background: var(--bg-btn);
   border-radius: 5px;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 .btn:hover {
   background-color: var(--bg-hover-btn);
