@@ -419,7 +419,7 @@
                     </div>
                   </li>
                 </ul>
-                <a href="#" class="cards__link btn flex" data-toggle="modal">
+                <a href="#" class="cards__link btn flex" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </a>
               </div>
@@ -511,7 +511,7 @@
                     </div>
                   </li>
                 </ul>
-                <a href="#" class="cards__link btn flex" data-toggle="modal">
+                <a href="#" class="cards__link btn flex" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </a>
               </div>
@@ -604,7 +604,7 @@
                     </div>
                   </li>
                 </ul>
-                <a href="#" class="cards__link btn flex" data-toggle="modal">
+                <a href="#" class="cards__link btn flex" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </a>
               </div>
@@ -697,7 +697,7 @@
                     </div>
                   </li>
                 </ul>
-                <a href="#" class="cards__link btn flex" data-toggle="modal">
+                <a href="#" class="cards__link btn flex" data-toggle="modal" data-target="#feedback-modal">
                   Записаться на тест-драйв
                 </a>
               </div>
