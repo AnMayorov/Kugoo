@@ -1,7 +1,29 @@
+const menu = document.querySelector('.mobile__menu');
+const menuToggle = document.querySelector('.mobile-toggle');
+
+const openMenu = (event) => {  //функция открытия меню
+  menu.classList.add("is-open"); //вешает класс is-open
+  menuToggle.classList.add("close-menu");
+  document.body.style.overflow="hidden"; //запрещаем прокрутку сайта под меню
+};
+const closeMenu = (event) => {  //функция закрытия меню
+  menu.classList.remove("is-open"); //убирает класс is-open
+  menuToggle.classList.remove("close-menu");
+  document.body.style.overflow=""; //разрешает прокрутку сайта под меню
+  // this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  // if (isInter) {
+  //   this.scrollY > 1 ? lightModeOn() : lightModeOn();
+  // }
+};
+menuToggle.addEventListener("click", (event) => {
+  event.preventDefault();
+  menu.classList.contains("is-open") ? closeMenu() : openMenu();
+});
+
 
 let currentModal; //текуще модальное окно
 let modalDialog;  //белое диалоговое окно
-let alertModal = document.querySelector("#alert-modal");  //окно с предупреждением
+let alertModal = document.querySelector("#alert-modal");  //окно с предупреждением(если есть)
 let modalClose;
 const body = document.querySelector("body");
 
