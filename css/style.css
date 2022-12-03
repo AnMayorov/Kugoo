@@ -333,6 +333,22 @@ section {
   width: 20px;
   height: 20px;
 }
+.header__link-svg {
+  transition: transform 0.2s ease, 
+              -webkit-filter 0.2s ease;
+  transition: filter 0.2s ease, 
+              transform 0.2s ease;
+  transition: filter 0.2s ease, 
+              transform 0.2s ease, 
+              -webkit-filter 0.2s ease;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.header__link:hover .header__link-svg {
+  transform: translateY(-2px);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
 .header__link-span {
   margin-left: 10px;
 }
@@ -1591,9 +1607,6 @@ section {
   .mobile__info-item {
     margin-bottom: 1rem/*10px*/;
   }
-  /* .info {
-    align-items: center;
-  } */
   .mobile__info-item:last-child {
     margin-bottom: 0;
   }
