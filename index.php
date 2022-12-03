@@ -220,17 +220,17 @@
             </form>
           
             <div class="header__links-box flex">
-              <a href="#" class="header__link flex">
+              <a href="#" class="header__link link flex">
                 <svg class="header__link-svg">
                   <use href="img/sprite.svg#balance"></use>
                 </svg>
               </a>
-              <a href="#" class="header__link flex">
+              <a href="#" class="header__link link flex">
                 <svg class="header__link-svg">
                   <use href="img/sprite.svg#heart"></use>
                 </svg>
               </a>
-              <a href="#" class="header__link flex">
+              <a href="#" class="header__link link flex">
                 <svg class="header__link-svg">
                   <use href="img/sprite.svg#shopping-cart-1"></use>
                 </svg>
