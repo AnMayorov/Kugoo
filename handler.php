@@ -2,12 +2,11 @@
 <?php
 $user_mail = htmlspecialchars($_POST["usermail"]);
 $user_phone = htmlspecialchars($_POST["userphone"]);
-$se_arch = htmlspecialchars($_POST["searchform"]);
+// $se_arch = htmlspecialchars($_POST["searchform"]);
 
 $token = "5402356824:AAFiCPd48QOWjKPuuqIj5IOGk3U0cGxyh4A";
 $chat_id = "-893163508";
 $formData = array(
-  "Поиск": => $se_arch,
   "Почта: " => $user_mail,
   "Телефон: " => $user_phone
 );

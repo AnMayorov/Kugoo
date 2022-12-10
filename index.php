@@ -896,7 +896,7 @@
             <input 
             class="footer__input" 
             type="Email"
-            name="usermail"
+            name="email"
             id="user-mail"
             placeholder="Введите Ваш email"
             maxlength="18"
